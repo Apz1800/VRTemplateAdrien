@@ -1,0 +1,54 @@
+# =====================================================================
+# Unreal Engine Git Ignore (Pico VR optimized)
+# =====================================================================
+
+# Ignore build output
+Binaries/
+Build/
+Saved/
+Intermediate/
+DerivedDataCache/
+DerivedDataCacheBoot/
+
+# Ignore package output (Pico build folders)
+Android_ASTC/
+Android_ETC2/
+Android_DXT/
+*.apk
+*.obb
+*.aab
+
+# Ignore autosaves and logs
+Saved/Autosaves/
+Saved/Backup/
+*.log
+*.dmp
+
+# Ignore IDE files
+.vscode/
+.vs/
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Ignore editor temporary assets
+*_BuiltData.uasset
+*.umap.autosave
+*.uasset.autosave
+*.tmp
+
+# Ignore shader + derived caches
+DerivedDataCache*/
+ShaderCache/
+*.ushadercache
+*.shaderstable
+
+# Ignore plugin build artifacts
+Plugins/**/Intermediate/
+Plugins/**/Binaries/
+Plugins/**/Saved/
+
+# OS junk
+.DS_Store
+Thumbs.db
